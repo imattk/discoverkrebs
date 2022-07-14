@@ -868,6 +868,7 @@ height: 125px;
   
   .main{
     background-size: 200px;
+    Overflow: hidden;
   }
   .projects{
     margin-top: 150px;
