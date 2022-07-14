@@ -13,7 +13,7 @@
     background: url('img/origami-bird.png') no-repeat;
     background-position: 50%;
     overflow: hidden;
-    margin-top: -200px;
+    
   }
   .fa-github:before .fa-linkedin:before .fa-twitter:before{
     text-decoration: none; 
@@ -865,7 +865,7 @@ height: 125px;
 }
 @media(max-width: 420px) {
   /* main section********************************* */
-
+  
   .overlay img{
     width: 300px;
   }
@@ -873,6 +873,7 @@ height: 125px;
   .main{
     background-size: 200px;
     overflow: hidden;
+    margin-top: -350px;
   }
   .projects{
     margin-top: 150px;
@@ -918,7 +919,8 @@ height: 125px;
 }
 .quote  {
   display: flex;
-  margin-left: 60px;
+  margin-left: 90px;
+  margin-top: 25px;
 }
 .menu-links{
   padding-top: 200px;
