@@ -10,13 +10,17 @@
   .main {
     width: 100%;
     height: 100vh;
-    font-family: 'agency fb';
     background: url('img/origami-bird.png') no-repeat;
     background-position: 50%;
-   
-    /* overflow: hidden; */
+    overflow: hidden;
+    margin-top: -200px;
   }
-  
+  .fa-github:before .fa-linkedin:before .fa-twitter:before{
+    text-decoration: none; 
+    color: rgba(255,255,255, .5);
+    text-decoration: none;
+    list-style: none;
+  }
   ul {
     list-style: none;
   }
@@ -126,7 +130,7 @@
     top: 60%;
     right: 0;
     transform: translateY(-50%);
-    background: #0a0a0a;
+    background: #212020;
     padding: 30px 180px 30px 30px;
   }
   
@@ -164,7 +168,7 @@
   }
   
   .media ul li:hover {
-    background: #FF0110;
+    background: #212020;
   }
   
   .ellipse-container {
@@ -677,7 +681,7 @@ height: 125px;
 {
   text-decoration: none;
   list-style: none;
-  
+  color:#FF0110;
 }
 .menu-links-contact ul li {
   display: inline-block;
@@ -780,7 +784,7 @@ height: 125px;
 }
 
 .contact-form .send-btn:hover{
-  background: #0582E3;
+  background: #FF0110;
 }
 .down-arrow{
   width: 25px;
@@ -868,11 +872,14 @@ height: 125px;
   
   .main{
     background-size: 200px;
-    Overflow: hidden;
+    overflow: hidden;
   }
   .projects{
     margin-top: 150px;
     padding: 25px;
+  }
+  .projBody{
+    overflow: hidden;
   }
 
 .logo span{
@@ -909,10 +916,13 @@ height: 125px;
   height: 125px;
   padding-right: 150px;
 }
-.quote p{
-  transform: translateX(-100%);
+.quote  {
+  display: flex;
+  margin-left: 60px;
 }
-
+.menu-links{
+  padding-top: 200px;
+}
   /* about section******************************* */
   .menu-links-about{
     z-index: 2;
