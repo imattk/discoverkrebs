@@ -1006,6 +1006,10 @@ left: 10px;
   margin-left: 75px;
   margin-top: 600px;
 }
+Button{
+  width: 50px;
+  border-radius: 4px;
+}
 
 /* contact section **************************** */
 .laptop-img{
