@@ -870,7 +870,9 @@ height: 125px;
   .overlay img{
     width: 300px;
   }
-  
+  .media{
+    margin-bottom: -30px;
+  }
   .main{
     background-size: 200px;
     overflow: hidden;
