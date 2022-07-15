@@ -1013,6 +1013,7 @@ left: 10px;
 .menu-links-proj li a{
   padding: 0px;
   display:flex;
+  flex-direction: row;
   justify-content: space-around;
 
 }
