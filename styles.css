@@ -514,6 +514,15 @@
     overflow: hidden;
   
 }
+.menu-links-proj{
+    padding: 10px;
+    color: #494949;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
 .img-proj{
   padding: 25px;
   height: 125px;
@@ -1001,6 +1010,8 @@ left: 10px;
 }
 .menu-links-proj li a{
   padding: 0px;
+  display:flex;
+  justify-content: space-around;
 
 }
 .img-proj-name{
