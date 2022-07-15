@@ -999,14 +999,16 @@ left: 10px;
 .nav-proj{
   margin-top: 50px;
 }
-.menu-links-about li a{
-  padding: 15px;
+.menu-links-proj li a{
+  padding: 0px;
+
 }
 .img-proj-name{
   margin-left: 75px;
   margin-top: 600px;
 }
-Button{
+
+button{
   width: 50px;
   border-radius: 4px;
 }
