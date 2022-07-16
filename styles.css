@@ -522,6 +522,7 @@
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
+    
 }
 .img-proj{
   padding: 25px;
@@ -641,9 +642,28 @@ height: 125px;
 }
 .nav-proj{
   color: #8a8a8a;
+  width: 90vw;
+  display: inline-flex;
+}
+.nav-proj li{
+ padding-left: 20px;
+
 }
 button{
-  Background:#212020;
+  background: #494949;
+  color: #FF0110;
+}
+.img-proj{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  margin-top: -55px;
+  margin-left: 1400px;
+}
+.img-proj-name{
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 5px ;
 }
 /* Contact section ******************************** */
 .phone-img {
@@ -693,7 +713,7 @@ button{
 {
   text-decoration: none;
   list-style: none;
-  color:#FF0110;
+  color:#c80613;
 }
 .menu-links-contact ul li {
   display: inline-block;
@@ -999,23 +1019,29 @@ left: 10px;
 }
 
 /* Projects Section ******************************* */
+.swiper-container{
+  padding: 0;
+}
 .swiper-slide{
   width: 300px;
-  padding-top: 150px;
+  
+  height: 400px;
 }
 .slide-img{
   width: 300px;
   height: 200px;
+}
+.slide-text h4 span{
+  margin-top: 10px;
 }
 .nav-proj{
   margin-top: 50px;
 }
 .menu-links-proj li a{
   padding: 0px;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-
+  color: #8a8a8a;
+  display: flex;
+  
 }
 .img-proj-name{
   margin-left: 75px;
@@ -1025,6 +1051,17 @@ left: 10px;
 button{
   width: 50px;
   border-radius: 4px;
+}
+.img-proj {
+  position: absolute;
+  margin-left: 5px;
+  margin-top: -120px;
+  width: 30px;
+  height: 30px;
+  
+}
+.img-proj-name{
+  margin-top: 450px;
 }
 
 /* contact section **************************** */
