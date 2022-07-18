@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="img/origami-bird.png">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
   <title>Krebs-About</title>
 </head>
 
-<body class="aboutBody">
+<body class="aboutBody ">
 
   <div class="overlay-about first-about"></div>
   <div class="overlay-about second-about"></div>
@@ -42,14 +42,7 @@
     </div>
   </div>
   <img src="img/down.png" alt="down arrow" class="down-arrow">
-   <!--alert messages start
-    <div class="alert-success">
-      <span>Message Sent! Thank you for contacting us.</span>
-    </div>
-    <div class="alert-error">
-      <span>Something went wrong! Please try again.</span>
-    </div>
-    alert messages end-->
+   
 
     <!--contact section start-->
     <div class="contact-section">
@@ -57,11 +50,11 @@
         <div><img src="img/origami-bird-white.png" class="small-bird-icon">Concord, CA </div>
         <div><i class="fa fa-envelope"></i>Matthew.M.Krebs@gmail.com</div>
         <div><i class="fa fa-phone"></i>(303)-803-3864</div>
-        <div><i class="fa fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM</div>
+        
       </div>
       <div class="contact-form">
         <h2>Contact me.</h2>
-        <form class="contact" "https://formsubmit.co/Matthew.m.krebs@email.com" method="POST">
+        <form class="contact" action="https://formsubmit.co/matthew.m.krebs@email.com" method="POST" >
           <input type="text" name="name" class="text-box" placeholder="Your Name" required>
           <input type="email" name="email" class="text-box" placeholder="Your Email" required>
           <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
@@ -80,8 +73,9 @@
     </div>
 </footer> 
 
-  <script src="file.js" async defer> 
-  </script>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="file.js" async defer> </script>
 </body>
 
 </html>
