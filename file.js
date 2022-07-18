@@ -266,7 +266,7 @@ TweenMax.to(".overlay h1", 2, {
     TweenMax.to('.slide-number span', .2, {
       x: '-100px',
     })
-    TweenMax.to('.slide-button span', .2, {
+    TweenMax.to('.slide-a span', .2, {
       y: '-5100px',
     })
     TweenMax.to('.swiper-slide-active', .5, {
@@ -291,11 +291,11 @@ TweenMax.to(".overlay h1", 2, {
     TweenMax.to('.slide-number span', 0, {
       x: '100px',
     })
-    TweenMax.to('.slide-button span', .2, {
+    TweenMax.to('.slide-a span', .2, {
       y: 0,
       delay: .2
     })
-    TweenMax.to('.slide-button span', 0, {
+    TweenMax.to('.slide-a span', 0, {
       y: '1000px',
     })
     TweenMax.to('.swiper-slide-active', .5, {
@@ -309,7 +309,7 @@ TweenMax.to(".overlay h1", 2, {
     TweenMax.to('.swiper-slide-active .slide-number', 0, {
       autoAlpha: 1
     })
-    TweenMax.to('.swiper-slide-active .slide-button', 0, {
+    TweenMax.to('.swiper-slide-active .slide-a', 0, {
       autoAlpha: 1
     })
   
@@ -327,10 +327,10 @@ TweenMax.to(".overlay h1", 2, {
     TweenMax.to('.swiper-slide-prev .slide-number', 0, {
       autoAlpha: 0
     })
-    TweenMax.to('.swiper-slide-next .slide-button', 0, {
+    TweenMax.to('.swiper-slide-next .slide-a', 0, {
       autoAlpha: 0
     })
-    TweenMax.to('.swiper-slide-prev .slide-button', 0, {
+    TweenMax.to('.swiper-slide-prev .slide-a', 0, {
       autoAlpha: 0
     })
   
@@ -349,10 +349,10 @@ TweenMax.to(".overlay h1", 2, {
   TweenMax.to('.swiper-slide-prev .slide-number', 0, {
     autoAlpha: 0
   })
-  TweenMax.to('.swiper-slide-next .slide-button', 0, {
+  TweenMax.to('.swiper-slide-next .slide-a', 0, {
     autoAlpha: 0
   })
-  TweenMax.to('.swiper-slide-prev .slide-button', 0, {
+  TweenMax.to('.swiper-slide-prev .slide-a', 0, {
     autoAlpha: 0
   })
   
@@ -382,16 +382,14 @@ TweenMax.to(".overlay h1", 2, {
     y: 20,
     ease: Expo.easeInOut
   })
-  TweenMax.from('.slide-button', 1, {
+  TweenMax.from('.slide-a', 1, {
     delay: 1.5,
     opacity: 0,
     y: 20,
     ease: Expo.easeInOut
   })
   
-  const sendMessage = document.getElementsByClassName(".send-btn")
-
-  sendMessage.addEventListener('click', ()=>{
+  function alertUser(){
     Swal.fire({
       title: 'Thanks for Contacting me.',
       text: 'I will reply as soon as I can.',
@@ -399,4 +397,4 @@ TweenMax.to(".overlay h1", 2, {
       confirmButtonText: 'Done'
     })
    
-  })
+  }
