@@ -4,6 +4,9 @@
 // tl.to(".slider", { y: "-100%", duration: 1, delay: 1});
 // tl.to(".intro", { y: "-100%", duration: 1 }, "-=1.25");
 // tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+function lock(orientation){
+  screen.orientation.lock(orientation);
+}
 
 TweenMax.to(".overlay h1", 2, {
     opacity: 0,
@@ -386,3 +389,14 @@ TweenMax.to(".overlay h1", 2, {
     ease: Expo.easeInOut
   })
   
+  const sendMessage = document.getElementsByClassName(".send-btn")
+
+  sendMessage.addEventListener('click', ()=>{
+    Swal.fire({
+      title: 'Thanks for Contacting me.',
+      text: 'I will reply as soon as I can.',
+      icon: 'success',
+      confirmButtonText: 'Done'
+    })
+   
+  })
