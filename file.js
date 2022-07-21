@@ -8,26 +8,26 @@ function lock(orientation){
   screen.orientation.lock(orientation);
 }
 
-TweenMax.to(".overlay h1", 2, {
+TweenMax.to(".overlay h1", 3, {
     opacity: 0,
     y: -60,
     ease: Expo.easeInOut
   })
 
-  TweenMax.to(".overlay span", 2, {
+  TweenMax.to(".overlay span", 3, {
     delay: .3,
     opacity: 0,
     y: -60,
     ease: Expo.easeInOut
   })
 
-  TweenMax.to(".overlay", 2, {
-    delay: 1,
+  TweenMax.to(".overlay", 4, {
+    delay: 2,
     top: "-200%",
     ease: Expo.easeInOut
   })
 
-  TweenMax.from(".ellipse-container", 1, {
+  TweenMax.from(".ellipse-container", 2, {
     delay: 2,
     opacity: 0,
     ease: Expo.easeInOut
@@ -394,7 +394,7 @@ TweenMax.to(".overlay h1", 2, {
       title: 'Thanks for Contacting me.',
       text: 'I will reply as soon as I can.',
       icon: 'success',
-      confirmButtonText: 'OK'
+      confirmButtonText: 'Done'
     })
    
   }
