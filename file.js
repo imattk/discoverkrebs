@@ -394,7 +394,7 @@ TweenMax.to(".overlay h1", 2, {
       title: 'Thanks for Contacting me.',
       text: 'I will reply as soon as I can.',
       icon: 'success',
-      confirmButtonText: 'Done'
+      confirmButtonText: 'OK'
     })
    
   }
