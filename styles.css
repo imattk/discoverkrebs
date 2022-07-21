@@ -8,6 +8,7 @@
     padding: 0;
     font-family: 'Big Shoulders Stencil Display', sans-serif;
     font-size: 1.3rem;
+    letter-spacing: 3px;
   }
   
   .main {
@@ -16,6 +17,7 @@
     background: url('img/origami-bird.png') no-repeat;
     background-position: 50%;
     overflow: hidden;
+    background-color: #212120;
     
   }
   .fa-github:before .fa-linkedin:before .fa-twitter:before{
@@ -44,7 +46,7 @@
   
   .logo {
     flex: 0 0 70%;
-    background: #090909;
+    background: linear-gradient(45deg, rgb(70, 8, 8), rgb(209, 5, 5));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,13 +58,13 @@
     text-transform: uppercase;
     font-size: 16px;
     line-height: 2;
-    color: #FF0110;
+    color: #faf9f9;
   }
   
   .logo span {
     font-size: 55px;
     line-height: 1;
-    color: #FF0110;
+    color: #e1dfdf;
   }
   
   .menu-links {
@@ -80,7 +82,7 @@
   
   .menu-links ul li {
     padding: 10px;
-    color: #494949;
+    color: #fff;
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
@@ -89,12 +91,12 @@
   }
   
   .menu-links a ul li:hover {
-    background: #494949;
-    color: #fff;
+    background: #fff;
+    color: #494949;
   }
   .menu-links a { 
     text-decoration: none; 
-    color: #494949;
+    color: #fff;
   }
   
   .scrolldown {
@@ -107,7 +109,7 @@
   .scrolldown::before {
     display: inline-block;
     content: "";
-    border-top: 1px solid #000;
+    border-top: 1px solid #fff;
     width: 65px;
     margin: 0 10px 0 0;
     transform: translateY(10px);
@@ -119,7 +121,7 @@
     right: 180px;
     transform: translateY(-50%);
     text-align: right;
-    color: #494949;
+    color: #fff;
   }
   .small-logo img{
     width: 250px;
@@ -133,7 +135,7 @@
     top: 60%;
     right: 0;
     transform: translateY(-50%);
-    background: #212020;
+    background: linear-gradient(45deg, rgb(70, 8, 8), rgb(209, 5, 5));
     padding: 30px 180px 30px 30px;
   }
   
@@ -324,15 +326,6 @@
 .aboutBody{
   background: #212020;
 }
-.title-about span{
-   font-size: 150px;
-}
-.aboutUL ul a{
-  list-style: none;
-  text-decoration: none;
-  color: #fff;
-  
-}
 
 .img-about {
   width: 100%;
@@ -361,7 +354,7 @@
 .menu-links-about {
   left: 100px;
   line-height: 1;
-  margin-left: 30px;
+  margin-left: 20px;
   color: #fff;
   
 }
@@ -375,13 +368,13 @@
 }
 .menu-links-about ul li {
   display: inline-block;
-  padding: 20px 30px;
+  padding: 20px 20px;
   color: rgba(255,255,255, .5);
   
 }
-.menu-links-about a:visited { 
+.menu-links-about a { 
   text-decoration: none; 
-  color: rgba(255,255,255, .5);
+  color: #fff;
   text-decoration: none;
   list-style: none;
 }
@@ -397,7 +390,7 @@
   margin-top: 20px;
   text-transform: uppercase;
   font-size: 14px;
-  color: #8a8a8a;
+  color: #adaaaa;
 }
 
 .subtitle-about::before {
@@ -416,9 +409,12 @@
   overflow: hidden;
   white-space: nowrap
 }
+.title-about span{
+  font-size: 150px;
+}
 
 .descript-about {
-  color: rgba(255,255,255, .5);
+  color: rgba(254, 252, 252, 0.5);
   margin-top: 40px;
   line-height: 2;
 }
@@ -459,10 +455,10 @@
   width: 50%;
   margin-left: 100px;
 }
-.aboutUL li{
+.aboutUL {
   list-style: none;
   text-decoration: none;
-  color: #fff;
+  
 }
 
 .img-2-about {
@@ -736,16 +732,27 @@ height: 125px;
 }
 .menu-links-contact img{
   width: 50px;
-  margin-top: 10px;
-  margin-right: 1000px;
+  padding-right: 1000px;
+
 }
 .menu-links-contact{
   padding: 20px;
   z-index: 5;
   line-height: 1;
   margin-left: 30px;
-  color: #fff;
+  margin-bottom: 5px;
   
+  }
+.contact-links a{
+  color: #fff;
+  padding: 20px;
+}
+.menu-links-contact .contact-links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+
 }
 .fa-github:before,
 .fa-twitter:before,
@@ -755,18 +762,7 @@ height: 125px;
   list-style: none;
   color:#c80613;
 }
-.contact-links ul li {
-  display: inline-block;
-  padding: 20px 30px;
-  color: rgba(255,255,255, .5);
-  
-}
-.menu-links-contact a:visited { 
-  text-decoration: none; 
-  color: rgba(255,255,255, .5);
-  text-decoration: none;
-  list-style: none;
-}
+
 .contact-section{
   width: 100%;
   display: flex;
