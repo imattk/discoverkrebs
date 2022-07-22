@@ -52,55 +52,55 @@ TweenMax.to(".overlay h1", 3, {
   })
 
   TweenMax.from(".logo", 1, {
-    delay: 3,
+    delay: 5,
     opacity: 0,
     y: -100,
     ease: Expo.easeInOut
   })
   TweenMax.from(".projects", 1, {
-    delay: 3,
+    delay: 5,
     opacity: 0,
     y: -100,
     ease: Expo.easeInOut
   })
 
   TweenMax.staggerFrom(".menu-links ul li", 1, {
-    delay: 3.2,
+    delay: 5.2,
     opacity: 0,
     x: -100,
     ease: Expo.easeInOut
   }, 0.08)
 
   TweenMax.from(".scrolldown", 1, {
-    delay: 3.4,
+    delay: 5.4,
     opacity: 0,
     y: 100,
     ease: Expo.easeInOut
   })
 
   TweenMax.from(".text .title", 1, {
-    delay: 3,
+    delay: 5,
     opacity: 0,
     x: 200,
     ease: Expo.easeInOut
   })
 
   TweenMax.from(".text p", 1, {
-    delay: 3.2,
+    delay: 5.2,
     opacity: 0,
     x: 200,
     ease: Expo.easeInOut
   })
 
   TweenMax.from(".watchnow", 1, {
-    delay: 3.4,
+    delay: 5.4,
     opacity: 0,
     x: 200,
     ease: Expo.easeInOut
   })
 
   TweenMax.staggerFrom(".media ul li", 1, {
-    delay: 3,
+    delay: 5,
     opacity: 0,
     y: 100,
     ease: Expo.easeInOut
