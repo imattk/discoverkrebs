@@ -8,20 +8,20 @@ function lock(orientation){
   screen.orientation.lock(orientation);
 }
 
-TweenMax.to(".overlay h1", 3, {
+TweenMax.to(".overlay h1", 2, {
     opacity: 0,
     y: -60,
     ease: Expo.easeInOut
   })
 
-  TweenMax.to(".overlay span", 3, {
+  TweenMax.to(".overlay span", 2, {
     delay: .3,
     opacity: 0,
     y: -60,
     ease: Expo.easeInOut
   })
 
-  TweenMax.to(".overlay", 4, {
+  TweenMax.to(".overlay", 3, {
     delay: 2,
     top: "-200%",
     ease: Expo.easeInOut
