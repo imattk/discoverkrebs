@@ -22,13 +22,13 @@ TweenMax.to(".overlay h1", 2, {
   })
 
   TweenMax.to(".overlay", 3, {
-    delay: 2,
+    delay: 1,
     top: "-200%",
     ease: Expo.easeInOut
   })
 
   TweenMax.from(".ellipse-container", 2, {
-    delay: 2,
+    delay: 1,
     opacity: 0,
     ease: Expo.easeInOut
   })
