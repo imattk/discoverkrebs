@@ -642,7 +642,7 @@ height: 125px;
 
 .slide-number p span {
   position: absolute;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .slide-text {
@@ -735,7 +735,7 @@ height: 125px;
 }
 .menu-links-contact img{
   width: 50px;
-  padding-right: 900px;
+  padding-right: 1000px;
 
 }
 .menu-links-contact{
@@ -1106,13 +1106,13 @@ button{
 /* contact section **************************** */
 .laptop-img{
   width: 400px;
-  margin-left: -20px;
+  margin-left: 0px;
   margin-top: 5px;
   
 }
 .laptop-pic{
   width: 200px;
-  margin-left: -300px;
+  margin-left: -295px;
   margin-top: 150px;
 }
 .phone-img{
@@ -1136,5 +1136,31 @@ button{
   position: absolute;
   margin-left: 180px;
   margin-top: 120px;
+}
+.menu-links-contact img{
+  width: 50px;
+  padding-right: 0px;
+
+}
+.menu-links-contact{
+  padding: 20px;
+  z-index: 5;
+  line-height: 1;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  
+  }
+.contact-links a{
+  color: #fff;
+  padding: 0px 25px 0px 0px;
+  font-size: 16px;
+
+}
+.menu-links-contact .contact-links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+
 }
 }
