@@ -925,6 +925,9 @@ height: 125px;
     position: relative;
     margin-left: 400px;
   }
+  .quote{
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
 
   
