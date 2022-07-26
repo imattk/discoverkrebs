@@ -964,6 +964,9 @@ height: 125px;
   display: flex;
   
 }
+  .quote{
+    font-size: 1rem;
+  }
 @media(max-width: 575px) {
   /* main section********************************* */
   .main{
