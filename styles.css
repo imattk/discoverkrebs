@@ -352,10 +352,11 @@
 }
 
 .menu-links-about {
-  left: 100px;
+  
   line-height: 1;
   margin-left: 20px;
   color: #fff;
+  
   
 }
 .fa-github:before,
@@ -377,6 +378,7 @@
   color: #fff;
   text-decoration: none;
   list-style: none;
+  
 }
 .text-about {
   position: absolute;
@@ -407,7 +409,8 @@
   text-transform: uppercase;
   width: 0%;
   overflow: hidden;
-  white-space: nowrap
+  white-space: nowrap;
+  margin-left: 10px;
 }
 .title-about span{
   font-size: 150px;
@@ -417,6 +420,8 @@
   color: rgba(254, 252, 252, 0.5);
   margin-top: 40px;
   line-height: 2;
+  display: flex;
+  margin-left: 10px;
 }
 
 .readmore-about {
@@ -453,7 +458,7 @@
   color: rgb(219, 217, 217);
   font-size: 1.5rem;
   width: 50vw;
-  margin-left: 5px;
+  margin-left: 10px;
   font-family: 'Big Shoulders Text', cursive;
 }
 .aboutUL {
@@ -526,6 +531,14 @@
   display: inline-block;
   padding: 5px;
   
+}
+.footer-about{
+  display: flex;
+  justify-content:flex-start;
+  
+}
+.about-text-container{
+  display: flex;
 }
 
 /* projects section *********************************************************** */
@@ -931,7 +944,6 @@ height: 125px;
     align-items: flex-end;
 }
 
-  
 @media (max-width: 950px){
   .contact-section{
     flex-direction: column;
@@ -965,9 +977,9 @@ height: 125px;
   display: flex;
   
 }
-  .quote{
-    font-size: 1rem;
-  }
+.quote{
+  font-size: 1rem;
+}
 @media(max-width: 575px) {
   /* main section********************************* */
   .main{
@@ -1055,7 +1067,7 @@ height: 125px;
  
 .img-1-about{
 position: relative;
-left: 10px;
+left: -400px;
   height: 300px;
   margin-top: 55px;
   margin-bottom: 150px;
@@ -1067,7 +1079,7 @@ left: 10px;
 }
 .img-3-about{
   top: 0;
-  left: -525px;
+  left: -755px;
   margin-top: 100px;
   width: 200px;
   height: 100px;
@@ -1086,14 +1098,20 @@ left: 10px;
   padding: 10px 25px;
 }
 .about-text p{
-  font-size: 25px;  
+  font-size: 20px;  
+  width: 90vw;
 }
 .about-text{
   width: 90vw;
   margin: 0;
  padding-left: 5px;
 }
-
+.about-text-container{
+  display: block;
+}
+.subtitle-about{
+  margin-right: 20px;
+}
 /* Projects Section ******************************* */
 .swiper-container{
   padding: 0;
@@ -1199,5 +1217,6 @@ button{
   flex-direction: row;
   justify-content: center;
 
+}
 }
 }
