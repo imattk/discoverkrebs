@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&family=Black+Ops+One&family=Cinzel+Decorative&family=Rubik+Glitch&family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&family=Big+Shoulders+Text&family=Black+Ops+One&family=Cinzel+Decorative&family=Rubik+Glitch&family=Saira+Stencil+One&display=swap');
 
 ::-webkit-scrollbar{
   display: none;
@@ -454,6 +454,7 @@
   font-size: 1.5rem;
   width: 50%;
   margin-left: 100px;
+  font-family: 'Big Shoulders Text', cursive;
 }
 .aboutUL {
   list-style: none;
