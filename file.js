@@ -34,39 +34,40 @@ TweenMax.to(".overlay h1", 3, {
   })
 
   TweenMax.from(".yellow", 1, {
-    delay: 4,
+    delay: 3.9,
     opacity: 0,
     ease: Expo.easeInOut
   })
+
   TweenMax.from(".logo", 1, {
-    delay: 3.9,
+    delay: 3.6,
     opacity: 0,
     y: -100,
     ease: Expo.easeInOut
   })
   TweenMax.from(".projects", 1, {
-    delay: 3.5,
+    delay: 3.6,
     opacity: 0,
     y: -100,
     ease: Expo.easeInOut
   })
 
   TweenMax.staggerFrom(".menu-links ul li", 1, {
-    delay: 3..8,
+    delay: 3.8,
     opacity: 0,
     x: -100,
     ease: Expo.easeInOut
   }, 0.08)
 
   TweenMax.from(".scrolldown", 1, {
-    delay: 3.9,
+    delay: 3.8,
     opacity: 0,
     y: 100,
     ease: Expo.easeInOut
   })
 
   TweenMax.from(".text .title", 1, {
-    delay: 3.8,
+    delay: 3.9,
     opacity: 0,
     x: 200,
     ease: Expo.easeInOut
