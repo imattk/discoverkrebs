@@ -1077,6 +1077,7 @@ height: 125px;
     margin-top: 55px;
     margin-bottom: 150px;
     bottom: 0;
+    overflow-x: hidden;
   }
   .img-2-about{
     margin-top: 250px;
